@@ -3,3 +3,6 @@
 
 # Ignore files related to API keys
 .env
+
+# Ignore .vscode folder
+.vscode
