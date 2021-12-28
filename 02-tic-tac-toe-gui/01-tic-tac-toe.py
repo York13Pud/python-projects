@@ -57,6 +57,7 @@ def check_win():
     
     if winner is not None:
         message.value = winner.text + " wins!"
+        reset_button.enabled = True
     elif moves_taken() == 9:
         message.value = "It's a draw!"
 
@@ -73,6 +74,7 @@ def reset_game():
     global turn
     turn = "X"
     message.value = "It is your turn, " + turn
+    reset_button.enabled = False
     global board_squares
     board_squares = clear_board()
     
@@ -87,7 +89,14 @@ message = Text(app, text="It is your turn, " + turn)
 message.text_color = "white"
 message.text_size = "16"
 #buttons_box = Box(app, width = "fill", align = "bottom")
-reset_button = PushButton(app, command=reset_game, text = "Reset Game")
+reset_button = PushButton(app, command=reset_game, text = "Reset Game", enabled = False)
 reset_button.bg = "red"
 
 app.display()
+
+
+# To add:
+# ==========
+# score counter for each player
+# start new session that clears the scores
+# First to x number of wins
