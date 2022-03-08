@@ -3,6 +3,9 @@ import json
 import os
 import subprocess
 
+def get_date_time():
+    pass
+
 def update_modules():
     # --- Create an empty list to add the completed updates to:
     processed_modules = []
@@ -12,7 +15,7 @@ def update_modules():
             installed_modules = json.load(data_file)
             for module in installed_modules:
                 # --- If the module name is one of the below, ignore it ann move to the next:
-                if module["name"] == "pip" or module["name"] == "pip" or module["name"] == "setuptools" or module["name"] == "wheel":
+                if module["name"] == "pip" or module["name"] == "setuptools" or module["name"] == "wheel":
                     pass
                 else:
                     # --- Update the module and add the results to a dictionary that is then added to the processed_modules list:
@@ -25,9 +28,10 @@ def update_modules():
                                               "version_updated_to": updated_version
                                               })
         
-        # --- Print out the list of updated modules:        
-        print(processed_modules)
-    
+        # --- Write the processed_modules list to a json file:
+        with open("./updated_modules.json", mode="w") as data_file:
+            json.dumps(processed_modules)
+
     # --- If the installed_modules.json file is not found, run pip3 to create it:    
     except FileNotFoundError:
         os.system("pip3 list outdated --format json > installed_modules.json")
