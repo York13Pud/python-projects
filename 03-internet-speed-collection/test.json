@@ -1,0 +1,86 @@
+{
+  "type": "serverList",
+  "timestamp": "2022-03-20T16:05:38Z",
+  "servers": [
+    {
+      "id": 8691,
+      "host": "speedtest1.idaq.com",
+      "port": 8080,
+      "name": "IDAQ Ltd",
+      "location": "Sheffield",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 6513,
+      "host": "speedtest-public1.ask4.net",
+      "port": 8080,
+      "name": "ASK4",
+      "location": "Sheffield",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 30639,
+      "host": "speedtest.pinemedia.net",
+      "port": 8080,
+      "name": "Pine Media Ltd",
+      "location": "Sheffield",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 4657,
+      "host": "speedtest.hahosting.com",
+      "port": 8080,
+      "name": "High Availability Hosting Ltd",
+      "location": "Sheffield",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 40098,
+      "host": "speedtest.20i.com",
+      "port": 8080,
+      "name": "20i Ltd",
+      "location": "Nottingham",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 8713,
+      "host": "speedtest.cwcs.co.uk",
+      "port": 8080,
+      "name": "CWCS Managed Hosting",
+      "location": "Nottingham",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 10580,
+      "host": "speedtest.aql.com",
+      "port": 8080,
+      "name": "aql",
+      "location": "Leeds",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 17449,
+      "host": "speedtest.razorblue.net.uk",
+      "port": 8080,
+      "name": "razorblue",
+      "location": "Leeds",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 41597,
+      "host": "speedtesta.quickline.co.uk",
+      "port": 8080,
+      "name": "Quickline Communications",
+      "location": "Leeds",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 13227,
+      "host": "speedtest.darklight.city",
+      "port": 8080,
+      "name": "Exa Networks",
+      "location": "Bradford",
+      "country": "United Kingdom"
+    }
+  ]
+}

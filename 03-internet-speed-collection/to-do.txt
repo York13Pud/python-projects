@@ -1,0 +1,5 @@
+1.  Create a tool to get a list of all the sites that speedtest use for testing
+    - Export the results to a JSON file.
+    - Schedule it to run once a day. CRON job will do the trick.
+2.  Create a tool to import the results from the JSON file into a PostgreSQL table.
+3.  Create a tool to compare the known sites to the new JSON file and upload the changes to the database.

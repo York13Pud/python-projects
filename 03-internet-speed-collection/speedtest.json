@@ -1,0 +1,29 @@
+{
+  "type": "result",
+  "timestamp": "2022-03-20T15:35:36Z",
+  "ping": { "jitter": 0.34899999999999998, "latency": 21.992999999999999 },
+  "download": { "bandwidth": 6720354, "bytes": 52143108, "elapsed": 7804 },
+  "upload": { "bandwidth": 2171569, "bytes": 17705040, "elapsed": 8215 },
+  "isp": "Sky Broadband",
+  "interface": {
+    "internalIp": "192.168.0.11",
+    "name": "en6",
+    "macAddr": "00:A0:C9:00:00:00",
+    "isVpn": false,
+    "externalIp": "2.127.18.205"
+  },
+  "server": {
+    "id": 40098,
+    "host": "speedtest.20i.com",
+    "port": 8080,
+    "name": "20i Ltd",
+    "location": "Nottingham",
+    "country": "United Kingdom",
+    "ip": "45.8.227.5"
+  },
+  "result": {
+    "id": "2ed4b732-def7-4358-962c-ab1638b9c08a",
+    "url": "https://www.speedtest.net/result/c/2ed4b732-def7-4358-962c-ab1638b9c08a",
+    "persisted": true
+  }
+}
