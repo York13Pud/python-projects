@@ -6,3 +6,9 @@
 
 # Ignore .vscode folder
 .vscode
+
+# Ignore venv folders
+
+/Users/neil/Documents/training/programming/python-projects/05-flask-blog-site/blogsite
+/Users/neil/Documents/training/programming/python-projects/05-flask-blog-site/.idea
+/Users/neil/Documents/training/programming/python-projects/05-flask-blog-site/website/database.db
