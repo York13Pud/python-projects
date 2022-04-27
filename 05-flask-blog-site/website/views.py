@@ -11,5 +11,5 @@ views = Blueprint(name = "views",
 @views.route("/home")
 @login_required
 def home():
-    """This is the view for the home page. No parameters/arguments are defined/required."""
+    """This is the view for the home page. No parameters/arguments are defined/required"""
     return render_template("index.html", name = current_user.username)
